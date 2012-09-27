@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Downloads\BlankWindow.cpp">
+    <ClCompile Include="BlankWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\Dx11BaseClass.cpp">
+    <ClCompile Include="Dx11BaseClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Downloads\BlankWindow.h">
+    <ClInclude Include="BlankWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\Dx11BaseClass.h">
+    <ClInclude Include="Dx11BaseClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

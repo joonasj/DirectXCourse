@@ -10,6 +10,15 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlankWindow.cpp" />
+    <ClCompile Include="Dx11BaseClass.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlankWindow.h" />
+    <ClInclude Include="Dx11BaseClass.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{82B279AB-7997-4448-B7BE-D7F56ADF3407}</ProjectGuid>
     <RootNamespace>DirectX</RootNamespace>
@@ -72,15 +81,6 @@
       <AdditionalDependencies>d3d11.lib;d3dx11.lib;dxerr.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Downloads\BlankWindow.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\Dx11BaseClass.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Downloads\BlankWindow.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\Dx11BaseClass.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
